@@ -30,7 +30,7 @@ params:
     ShowShareButtons: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
-    ShowCodeCopyButtons: false
+    ShowCodeCopyButtons: true
     disableSpecial1stPost: false
     disableScrollToTop: false
     comments: false
@@ -91,7 +91,7 @@ params:
         hiddenInSingle: true # hide on single page
 
     editPost:
-        URL: "https://github.com/skyliegirl33/skyliegirl33.github.io/content"
+        URL: "https://github.com/skyliegirl33/skyliegirl33.github.io/tree/main/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
@@ -109,26 +109,36 @@ menu:
     main:
         - identifier: archive
           name: Archive
-          url: /archive/
+          url: archives/
           weight: 10
         - identifier: categories
           name: Categories
-          url: /categories/
+          url: categories/
           weight: 20
         - identifier: search
           name: Search
-          url: /search/
+          url: search/
           weight: 30
         - identifier: tags
           name: Tags
-          url: /tags/
+          url: tags/
           weight: 40
+        - identifier: posts/linux
+          name: Linux
+          url: posts/linux
+          weight: 50
 
 outputs:
     home:
         - HTML
         - RSS
         - JSON # is necessary
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
 markup:
   goldmark:
     renderer:
