@@ -62,7 +62,7 @@ Arch-based:
 sudo pacman -S latte-dock
 ```
 
-Simple! Now, just download [this](http://to-do) config for Latte, and import it in the settings (right click on an empty part of the dock, and choose "Configure Latte").
+Simple! Now, just download [this](/assets/Edna.layout.latte) config for Latte, and import it in the settings (right click on an empty part of the dock, and choose "Configure Latte").
 
 All done, phew!
 
