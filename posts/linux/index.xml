@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Rushi&#39;s Corner</title>
-    <link>https://skyliegirl33.github.io/</link>
-    <description>Recent content on Rushi&#39;s Corner</description>
+    <title>Linux on Rushi&#39;s Corner</title>
+    <link>https://skyliegirl33.github.io/posts/linux/</link>
+    <description>Recent content in Linux on Rushi&#39;s Corner</description>
     <image>
       <url>https://skyliegirl33.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://skyliegirl33.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 25 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://skyliegirl33.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://skyliegirl33.github.io/posts/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>macOS-like theme for Plasma</title>
       <link>https://skyliegirl33.github.io/posts/linux/macos-like-theme-for-plasma/</link>
@@ -18,17 +18,6 @@
       <guid>https://skyliegirl33.github.io/posts/linux/macos-like-theme-for-plasma/</guid>
       <description>This is the theme I use with Plasma</description>
     </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://skyliegirl33.github.io/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://skyliegirl33.github.io/posts/rich-content/</guid>
-      <description>A brief description of Hugo Shortcodes</description>
-    </item>
-    
-    
     
   </channel>
 </rss>
